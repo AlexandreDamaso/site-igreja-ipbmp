@@ -1,8 +1,0 @@
-@media screen and (max-width: 930px) {
-   .img-desktop {
-      display: none;
-   }
-   .img-mobile {
-      display: block;
-   }
-}
