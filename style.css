@@ -244,7 +244,7 @@ img {
 }
 
 .navbar-bg {
-   background-color: rgba(0, 89, 18, 0.8);
+   background-color: rgba(0, 87, 17, 0.8);
    padding: 10px 0;
 }
 
@@ -337,7 +337,7 @@ img {
 }
 
 #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single:after {
-   background-color: rgba(0, 89, 18, 0.6);
+   background-color: rgba(0, 89, 18, 0.8);
    bottom: 0;
    content: "";
    left: 0;
@@ -613,11 +613,20 @@ img {
  MENU ITEM SECTION
 ====================*/
 #mu-restaurant-menu {
+   background-attachment: fixed;
+   background-image: url("./src/img/counter-bg.jpg");
+   background-size: cover;
    display: inline;
    float: left;
    width: 100%;
-   padding: 100px 0;
+}
+
+#mu-restaurant-menu .mu-restaurant-menu-overlay {
    background-color: rgba(0, 89, 18, 0.8);
+   display: inline;
+   padding: 100px 0;
+   float: left;
+   width: 100%;
 }
 
 #mu-restaurant-menu .mu-restaurant-menu-area {

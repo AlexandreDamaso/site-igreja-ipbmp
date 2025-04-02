@@ -35,25 +35,25 @@ Author URI : http://www.markups.io/
 }
 
 .mu-main-navbar .mu-main-nav li a:hover, .mu-main-navbar .mu-main-nav li a:focus {
-  color: #c1a35f;
+  color: #C3F025;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #c1a35f;
+  color: #C3F025;
 }
 
 #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-small-title {
-  color: #c1a35f;
+  color: #C3F025;
 }
 #mu-slider .mu-slider-area .mu-top-slider .slick-prev:hover, #mu-slider .mu-slider-area .mu-top-slider .slick-prev:focus,
 #mu-slider .mu-slider-area .mu-top-slider .slick-next:hover,
 #mu-slider .mu-slider-area .mu-top-slider .slick-next:focus {
-  border-color: #c1a35f;
-  background-color: #c1a35f;
+  border-color: #ccc;
+  background-color: rgba(0, 89, 18, 0.8);
 }
 
 #mu-about-us .mu-about-us-area .mu-about-us-left ul li:before {
-  color: #c1a35f;
+  color: #005912;
 }
 
 .mu-title .mu-subtitle {
@@ -69,14 +69,23 @@ Author URI : http://www.markups.io/
   background-color: #c1a35f;
 }
 
+#mu-restaurant-menu .mu-title .mu-subtitle {
+  color: #C3F025;
+}
+
+#mu-restaurant-menu h2 {
+  color: #ffffff;
+}
+
 #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
   border-bottom: 1px solid #ccc;
 }
 #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
-  background-color: #4d4d4d;
+  background-color: #005912;
+  border: 1px solid #ccc;
 }
 #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a:hover, #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a:focus {
-  border-color: #ccc #ccc transparent;
+  border-color: #ccc #ccc ;
 }
 #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a,
 #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a:hover,

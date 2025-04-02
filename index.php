@@ -247,502 +247,504 @@ require_once("varconst.php");
 
    <!-- Start Restaurant Menu -->
    <section id="mu-restaurant-menu">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-12">
-               <div class="mu-restaurant-menu-area">
-                  <div class="mu-title">
-                     <span class="mu-subtitle">Discover</span>
-                     <h2>OUR MENU</h2>
-                     <i class="fa fa-spoon"></i>
-                     <span class="mu-title-bar"></span>
-                  </div>
-                  <div class="mu-restaurant-menu-content">
-                     <ul class="nav nav-tabs mu-restaurant-menu">
-                        <li class="active"><a href="#breakfast" data-toggle="tab">Programação</a></li>
-                        <!-- <li><a href="#meals" data-toggle="tab">Eventos</a></li> -->
-                        <li><a href="#snacks" data-toggle="tab">Projetos</a></li>
-                        <li><a href="#desserts" data-toggle="tab">Sociedades Interna</a></li>
-                        <!-- <li><a href="#drinks" data-toggle="tab">Drinks</a></li> -->
-                     </ul>
-
-                     <!-- Tab panes -->
-                     <div class="tab-content">
-                        <div class="tab-pane fade in active" id="breakfast">
-                           <div class="mu-tab-content-area">
-                              <div class="row">
-                                 <div class="col-md-6">
-                                    <div class="mu-tab-content-left">
-                                       <ul class="mu-menu-item-nav">
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
+      <div class="mu-restaurant-menu-overlay">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="mu-restaurant-menu-area">
+                     <div class="mu-title">
+                        <span class="mu-subtitle">Discover</span>
+                        <h2>OUR MENU</h2>
+                        <i class="fa fa-spoon"></i>
+                        <span class="mu-title-bar"></span>
+                     </div>
+                     <div class="mu-restaurant-menu-content">
+                        <ul class="nav nav-tabs mu-restaurant-menu">
+                           <li class="active"><a href="#breakfast" data-toggle="tab">Programação</a></li>
+                           <!-- <li><a href="#meals" data-toggle="tab">Eventos</a></li> -->
+                           <li><a href="#snacks" data-toggle="tab">Projetos</a></li>
+                           <li><a href="#desserts" data-toggle="tab">Sociedades Interna</a></li>
+                           <!-- <li><a href="#drinks" data-toggle="tab">Drinks</a></li> -->
+                        </ul>
+   
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                           <div class="tab-pane fade in active" id="breakfast">
+                              <div class="mu-tab-content-area">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="mu-tab-content-left">
+                                          <ul class="mu-menu-item-nav">
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
-                                                   </a>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
-                                                </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                       </ul>
+                                             </li>
+                                          </ul>
+                                       </div>
                                     </div>
-                                 </div>
-                                 <div class="col-md-6">
-                                    <div class="mu-tab-content-right">
-                                       <ul class="mu-menu-item-nav">
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
+                                    <div class="col-md-6">
+                                       <div class="mu-tab-content-right">
+                                          <ul class="mu-menu-item-nav">
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
-                                                   </a>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
-                                                </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- <div class="tab-pane fade " id="meals">
-                           <div class="mu-tab-content-area">
-                              <div class="row">
-                                 <div class="col-md-6">
-                                    <div class="mu-tab-content-left">
-                                       <ul class="mu-menu-item-nav">
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
-                                                </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
-                                                   </a>
-                                                </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
-                                                </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                       </ul>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-6">
-                                    <div class="mu-tab-content-right">
-                                       <ul class="mu-menu-item-nav">
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
-                                                </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
-                                                   </a>
-                                                </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
-                                                </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                       </ul>
+                                             </li>
+                                          </ul>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
                            </div>
-                        </div> -->
-                        <div class="tab-pane fade " id="snacks">
-                           <div class="mu-tab-content-area">
-                              <div class="row">
-                                 <div class="col-md-6">
-                                    <div class="mu-tab-content-left">
-                                       <ul class="mu-menu-item-nav">
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
+                           <!-- <div class="tab-pane fade " id="meals">
+                              <div class="mu-tab-content-area">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="mu-tab-content-left">
+                                          <ul class="mu-menu-item-nav">
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
-                                                   </a>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="mu-tab-content-right">
+                                          <ul class="mu-menu-item-nav">
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                          </li>
-                                       </ul>
+                                             </li>
+                                          </ul>
+                                       </div>
                                     </div>
                                  </div>
-                                 <div class="col-md-6">
-                                    <div class="mu-tab-content-right">
-                                       <ul class="mu-menu-item-nav">
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
+                              </div>
+                           </div> -->
+                           <div class="tab-pane fade " id="snacks">
+                              <div class="mu-tab-content-area">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="mu-tab-content-left">
+                                          <ul class="mu-menu-item-nav">
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
-                                                   </a>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="mu-tab-content-right">
+                                          <ul class="mu-menu-item-nav">
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                          </li>
-                                       </ul>
+                                             </li>
+                                          </ul>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
                            </div>
-                        </div>
-                        <div class="tab-pane fade " id="desserts">
-                           <div class="mu-tab-content-area">
-                              <div class="row">
-                                 <div class="col-md-6">
-                                    <div class="mu-tab-content-left">
-                                       <ul class="mu-menu-item-nav">
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
+                           <div class="tab-pane fade " id="desserts">
+                              <div class="mu-tab-content-area">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="mu-tab-content-left">
+                                          <ul class="mu-menu-item-nav">
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
-                                                   </a>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
-                                                </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                       </ul>
+                                             </li>
+                                          </ul>
+                                       </div>
                                     </div>
-                                 </div>
-                                 <div class="col-md-6">
-                                    <div class="mu-tab-content-right">
-                                       <ul class="mu-menu-item-nav">
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
+                                    <div class="col-md-6">
+                                       <div class="mu-tab-content-right">
+                                          <ul class="mu-menu-item-nav">
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
-                                                   </a>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
-                                                </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                       </ul>
+                                             </li>
+                                          </ul>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
                            </div>
-                        </div>
-                        <div class="tab-pane fade " id="drinks">
-                           <div class="mu-tab-content-area">
-                              <div class="row">
-                                 <div class="col-md-6">
-                                    <div class="mu-tab-content-left">
-                                       <ul class="mu-menu-item-nav">
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
+                           <div class="tab-pane fade " id="drinks">
+                              <div class="mu-tab-content-area">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="mu-tab-content-left">
+                                          <ul class="mu-menu-item-nav">
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
-                                                   </a>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
-                                                </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                       </ul>
+                                             </li>
+                                          </ul>
+                                       </div>
                                     </div>
-                                 </div>
-                                 <div class="col-md-6">
-                                    <div class="mu-tab-content-right">
-                                       <ul class="mu-menu-item-nav">
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
+                                    <div class="col-md-6">
+                                       <div class="mu-tab-content-right">
+                                          <ul class="mu-menu-item-nav">
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
-                                                   </a>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      </a>
+                                                   </div>
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
+                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                   </div>
                                                 </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                          <li>
-                                             <div class="media">
-                                                <div class="media-left">
-                                                   <a href="#">
-                                                      <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                   </a>
-                                                </div>
-                                                <div class="media-body">
-                                                   <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                </div>
-                                             </div>
-                                          </li>
-                                       </ul>
+                                             </li>
+                                          </ul>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -1005,10 +1007,10 @@ require_once("varconst.php");
                         <i class="fa fa-spoon"></i>
                         <span class="mu-title-bar"></span>
                      </div> -->
-                     <!-- testimonial content -->
-                     <!-- <div class="mu-testimonial-content"> -->
-                        <!-- testimonial slider -->
-                        <!-- <ul class="mu-testimonial-slider">
+   <!-- testimonial content -->
+   <!-- <div class="mu-testimonial-content"> -->
+   <!-- testimonial slider -->
+   <!-- <ul class="mu-testimonial-slider">
                            <li>
                               <div class="mu-testimonial-single">
                                  <div class="mu-testimonial-info">
