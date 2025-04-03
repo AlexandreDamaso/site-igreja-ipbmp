@@ -54,7 +54,7 @@ require_once("varconst.php");
    <!-- Pre Loader -->
    <div id="aa-preloader-area">
       <div class="mu-preloader">
-         <img src="./src/img/preloader2.gif" alt=" loader img">
+         <img src="./src/img/preloader.gif" alt="Imagem de Carregando Página">
       </div>
    </div>
    <!--START SCROLL TOP BUTTON -->
@@ -115,8 +115,9 @@ require_once("varconst.php");
                <img src="./src/img/slider/1.jpg" alt="img">
                <!-- Top slider content -->
                <div class="mu-top-slider-content">
-                  <span class="mu-slider-small-title">Welcome</span>
-                  <h2 class="mu-slider-title">TO THE SPICYX</h2>
+                  <span class="mu-slider-small-title">Seja bem-vindo a</span>
+                  <h2 class="mu-slider-title">Igreja Presbiteriana</h2>
+                  <h2 class="mu-slider-title">Balneário Meia Ponte</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>
                   <!-- <a href="#" class="mu-readmore-btn">READ MORE</a> -->
                </div>

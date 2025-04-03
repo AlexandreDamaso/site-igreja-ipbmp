@@ -51,7 +51,7 @@ jQuery(function($){
       dots: false,
       infinite: true,
       arrows: true,
-      speed: 500,     
+      speed: 1000,     
       autoplay: true,
       fade: true,
       cssEase: 'linear'
