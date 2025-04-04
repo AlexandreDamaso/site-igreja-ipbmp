@@ -80,6 +80,10 @@ img {
    border: none;
 }
 
+.icon-cross > img {
+   width: 15px;
+}
+
 .mu-readmore-btn {
    background-color: #fff;
    font-family: "Open Sans", sans-serif;
@@ -524,7 +528,7 @@ img {
 .mu-title .mu-title-bar::after {
    content: "";
    height: 2px;
-   right: 15px;
+   right: 23px;
    position: absolute;
    top: 10px;
    width: 100px;
@@ -1503,6 +1507,7 @@ RESERVATION SECTION
  CONTACT SECTION
 ====================*/
 #mu-contact {
+   background-color: #F4F4F4;
    display: inline;
    float: left;
    padding: 100px 0;
@@ -2246,7 +2251,7 @@ RESERVATION SECTION
  FOOTER SECTION
 ====================*/
 #mu-footer {
-   background-color: #444;
+   background-color: #005912;
    display: inline;
    float: left;
    padding: 50px 0;

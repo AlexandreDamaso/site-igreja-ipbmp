@@ -83,11 +83,11 @@ require_once("varconst.php");
                <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
                   <li><a href="#mu-slider">HOME</a></li>
                   <li><a href="#mu-about-us">SOBRE</a></li>
-                  <li><a href="#mu-restaurant-menu">CARDÁPIO</a></li>
+                  <li><a href="#mu-restaurant-menu">INFORMATIVOS</a></li>
                   <!-- <li><a href="#mu-reservation">RESERVAS</a></li> -->
                   <li><a href="#mu-gallery">FOTOS</a></li>
-                  <li><a href="#mu-chef">NOSSA EQUIPE</a></li>
-                  <li><a href="#mu-latest-news">BOLETIM</a></li>
+                  <!-- <li><a href="#mu-chef">NOSSA EQUIPE</a></li> -->
+                  <!-- <li><a href="#mu-latest-news">BOLETIM</a></li> -->
                   <li><a href="#mu-contact">CONTATO</a></li>
                   <!-- <li class="dropdown">
                      <a class="dropdown-toggle" data-toggle="dropdown" href="blog-archive.html">PAGE <span class="caret"></span></a>
@@ -125,30 +125,30 @@ require_once("varconst.php");
             </div>
             <!-- / Top slider single slide -->
             <!-- Top slider single slide -->
-            <div class="mu-top-slider-single">
-               <img src="./src/img/slider/2.jpg" alt="img">
+            <!-- <div class="mu-top-slider-single">
+               <img src="./src/img/slider/2.jpg" alt="img"> -->
                <!-- Top slider content -->
-               <div class="mu-top-slider-content">
+               <!-- <div class="mu-top-slider-content">
                   <span class="mu-slider-small-title">The Real</span>
                   <h2 class="mu-slider-title">GREEN FOODS</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p> -->
                   <!-- <a href="#" class="mu-readmore-btn">READ MORE</a> -->
-               </div>
+               <!-- </div> -->
                <!-- / Top slider content -->
-            </div>
+            <!-- </div> -->
             <!-- / Top slider single slide -->
             <!-- Top slider single slide -->
-            <div class="mu-top-slider-single">
-               <img src="./src/img/slider/3.jpg" alt="img">
+            <!-- <div class="mu-top-slider-single">
+               <img src="./src/img/slider/3.jpg" alt="img"> -->
                <!-- Top slider content -->
-               <div class="mu-top-slider-content">
+               <!-- <div class="mu-top-slider-content">
                   <span class="mu-slider-small-title">Delicious</span>
                   <h2 class="mu-slider-title">SPICY MASALAS</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p> -->
                   <!-- <a href="#" class="mu-readmore-btn">READ MORE</a> -->
-               </div>
+               <!-- </div> -->
                <!-- / Top slider content -->
-            </div>
+            <!-- </div> -->
             <!-- / Top slider single slide -->
          </div>
       </div>
@@ -162,9 +162,11 @@ require_once("varconst.php");
             <div class="col-md-12">
                <div class="mu-about-us-area">
                   <div class="mu-title">
-                     <span class="mu-subtitle">Discover</span>
-                     <h2>ABOUT US</h2>
-                     <i class="fa fa-spoon"></i>
+                     <!-- <span class="mu-subtitle">Discover</span> -->
+                     <h2>SOBRE NÓS</h2>
+                     <!-- <i class="fa fa-spoon"></i> -->
+                     <!-- <i class="fa-solid fa-cross"></i> -->
+                     <figure class="fa icon-cross"><img src="./src/img/cross-light.svg" alt=""></figure>
                      <span class="mu-title-bar"></span>
                   </div>
                   <div class="row">
@@ -254,9 +256,10 @@ require_once("varconst.php");
                <div class="col-md-12">
                   <div class="mu-restaurant-menu-area">
                      <div class="mu-title">
-                        <span class="mu-subtitle">Discover</span>
-                        <h2>OUR MENU</h2>
-                        <i class="fa fa-spoon"></i>
+                        <!-- <span class="mu-subtitle">Discover</span> -->
+                        <h2>INFORMATIVOS</h2>
+                        <!-- <i class="fa fa-spoon"></i> -->
+                        <figure class="fa icon-cross"><img src="./src/img/cross-dark.svg" alt=""></figure>
                         <span class="mu-title-bar"></span>
                      </div>
                      <div class="mu-restaurant-menu-content">
@@ -841,27 +844,27 @@ require_once("varconst.php");
             <div class="col-md-12">
                <div class="mu-gallery-area">
                   <div class="mu-title">
-                     <span class="mu-subtitle">Discover</span>
-                     <h2>Our Gallery</h2>
-                     <i class="fa fa-spoon"></i>
+                     <!-- <span class="mu-subtitle">Discover</span> -->
+                     <h2>FOTOS</h2>
+                     <figure class="fa icon-cross"><img src="./src/img/cross-light.svg" alt=""></figure>
                      <span class="mu-title-bar"></span>
                   </div>
                   <div class="mu-gallery-content">
                      <div class="mu-gallery-top">
                         <!-- Start gallery menu -->
                         <ul>
-                           <li class="filter active" data-filter="all">ALL</li>
-                           <li class="filter" data-filter=".food">FOOD</li>
-                           <li class="filter" data-filter=".drink">DRINK</li>
-                           <li class="filter" data-filter=".restaurant">RESTAURANT</li>
-                           <li class="filter" data-filter=".dinner">DINNER</li>
-                           <li class="filter" data-filter=".dessert">DESSERT</li>
+                           <!-- <li class="filter active" data-filter="all">ALL</li> -->
+                           <li class="filter active" data-filter=".igreja">IGREJA</li>
+                           <li class="filter" data-filter=".drink">EBD</li>
+                           <li class="filter" data-filter=".dinner">ENCONTROS</li>
+                           <li class="filter" data-filter=".dessert">EVANGELISMO</li>
+                           <li class="filter" data-filter=".restaurant">EBF</li>
                         </ul>
                      </div>
                      <!-- Start gallery image -->
                      <div class="mu-gallery-body" id="mixit-container">
                         <!-- start single gallery image -->
-                        <div class="mu-single-gallery col-md-4 mix food">
+                        <div class="mu-single-gallery col-md-4 mix igreja">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
                                  <a href="#"><img alt="img" src="./src/img/gallery/small/1.jpg"></a>
@@ -931,7 +934,7 @@ require_once("varconst.php");
                         </div>
                         <!-- End single gallery image -->
                         <!-- start single gallery image -->
-                        <div class="mu-single-gallery col-md-4 mix food">
+                        <div class="mu-single-gallery col-md-4 mix igreja">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
                                  <a href="#"><img alt="img" src="./src/img/gallery/small/6.jpg"></a>
@@ -1070,7 +1073,7 @@ require_once("varconst.php");
    <!-- End Subscription section -->
 
    <!-- Start Chef Section -->
-   <section id="mu-chef">
+   <!-- <section id="mu-chef">
       <div class="container">
          <div class="row">
             <div class="col-md-12">
@@ -1225,11 +1228,11 @@ require_once("varconst.php");
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
    <!-- End Chef Section -->
 
    <!-- Start Latest News -->
-   <section id="mu-latest-news">
+   <!-- <section id="mu-latest-news">
       <div class="container">
          <div class="row">
             <div class="col-md-12">
@@ -1241,9 +1244,9 @@ require_once("varconst.php");
                      <span class="mu-title-bar"></span>
                   </div>
                   <div class="mu-latest-news-content">
-                     <div class="row">
+                     <div class="row"> -->
                         <!-- start single blog -->
-                        <div class="col-md-6">
+                        <!-- <div class="col-md-6">
                            <article class="mu-news-single">
                               <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!</a></h3>
                               <figure class="mu-news-img">
@@ -1260,9 +1263,9 @@ require_once("varconst.php");
                                  </div>
                               </div>
                            </article>
-                        </div>
+                        </div> -->
                         <!-- start single blog -->
-                        <div class="col-md-6">
+                        <!-- <div class="col-md-6">
                            <article class="mu-news-single">
                               <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, distinctio!</a></h3>
                               <figure class="mu-news-img">
@@ -1280,16 +1283,16 @@ require_once("varconst.php");
                               </div>
                            </article>
                         </div>
-                     </div>
+                     </div> -->
                      <!-- Start brows more btn -->
-                     <a href="blog-archive.html" class="mu-browsmore-btn">BROWS MORE</a>
+                     <!-- <a href="blog-archive.html" class="mu-browsmore-btn">BROWS MORE</a> -->
                      <!-- End brows more btn -->
-                  </div>
+                  <!-- </div>
                </div>
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
    <!-- End Latest News -->
 
    <!-- Start Contact section -->
@@ -1299,8 +1302,8 @@ require_once("varconst.php");
             <div class="col-md-12">
                <div class="mu-contact-area">
                   <div class="mu-title">
-                     <span class="mu-subtitle">Get In Touch</span>
-                     <h2>Contact Us</h2>
+                     <!-- <span class="mu-subtitle">Get In Touch</span> -->
+                     <h2>CONTATE-NOS</h2>
                      <i class="fa fa-spoon"></i>
                      <span class="mu-title-bar"></span>
                   </div>
@@ -1310,44 +1313,44 @@ require_once("varconst.php");
                            <div class="mu-contact-left">
                               <form class="mu-contact-form">
                                  <div class="form-group">
-                                    <label for="name">Your Name</label>
-                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                    <label for="name">Seu nome</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Nome">
                                  </div>
                                  <div class="form-group">
-                                    <label for="email">Email address</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" class="form-control" id="email" placeholder="E-mail">
                                  </div>
                                  <div class="form-group">
-                                    <label for="subject">Subject</label>
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Assunto</label>
+                                    <input type="text" class="form-control" id="subject" placeholder="Assunto">
                                  </div>
                                  <div class="form-group">
-                                    <label for="message">Message</label>
-                                    <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Type Your Message"></textarea>
+                                    <label for="message">Mensagem</label>
+                                    <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Digite a sua mensagem"></textarea>
                                  </div>
-                                 <button type="submit" class="mu-send-btn">Send Message</button>
+                                 <button type="submit" class="mu-send-btn">Enviar Mensagem</button>
                               </form>
                            </div>
                         </div>
                         <div class="col-md-6">
                            <div class="mu-contact-right">
                               <div class="mu-contact-widget">
-                                 <h3>Office Address</h3>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia temporibus corporis ea non consequatur porro corrupti hic voluptatibus assumenda, doloribus.</p>
+                                 <h3>Nosso Endereço</h3>
+                                 <p>Av. Euríco Viana, 90-144 - Parque das Flores, Goiânia - GO, 74593-590</p>
                                  <address>
-                                    <p><i class="fa fa-phone"></i> (850) 457 6688</p>
-                                    <p><i class="fa fa-envelope-o"></i>contact@markups.io</p>
-                                    <p><i class="fa fa-map-marker"></i>368 St. Panama City, Florida, USA</p>
+                                    <p><i class="fa fa-phone"></i>(62) 3210-8400</p>
+                                    <p><i class="fa fa-envelope-o"></i>ipbalneario@gmail.com</p>
+                                    <p><i class="fa fa-map-marker"></i>-16.62521, -49.28443</p>
                                  </address>
                               </div>
-                              <div class="mu-contact-widget">
+                              <!-- <div class="mu-contact-widget">
                                  <h3>Open Hours</h3>
                                  <address>
                                     <p><span>Monday - Friday</span> 9.00 am to 12 pm</p>
                                     <p><span>Saturday</span> 9.00 am to 10 pm</p>
                                     <p><span>Sunday</span> 10.00 am to 12 pm</p>
                                  </address>
-                              </div>
+                              </div> -->
                            </div>
                         </div>
                      </div>
@@ -1361,7 +1364,9 @@ require_once("varconst.php");
 
    <!-- Start Map section -->
    <section id="mu-map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9207.358598888495!2d-85.64847801496286!3d30.183918972289003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x2320479d70eb6202!2sDillard&#39;s!5e0!3m2!1sbn!2sbd!4v1462359735720" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9207.358598888495!2d-85.64847801496286!3d30.183918972289003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x2320479d70eb6202!2sDillard&#39;s!5e0!3m2!1sbn!2sbd!4v1462359735720" width="100%" height="100%" frameborder="0" allowfullscreen></iframe> -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.026240852137!2d-49.286303046608026!3d-16.62545215742017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef49fd4f69dd5%3A0xdc887dec9bbcf4f1!2sIgreja%20Presbiteriana%20Balne%C3%A1rio%20Meia%20Ponte!5e0!3m2!1spt-BR!2sbr!4v1743737439635!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
    </section>
    <!-- End Map section -->
 
@@ -1379,7 +1384,7 @@ require_once("varconst.php");
                      <a href="#"><span class="fa fa-youtube"></span></a>
                   </div>
                   <div class="mu-footer-copyright">
-                     <p>Designed by <a rel="nofollow" href="http://www.markups.io/">MarkUps.io</a></p>
+                     <p>Designed by <a rel="nofollow" href="#">Alexandre Damaso</a></p>
                   </div>
                </div>
             </div>

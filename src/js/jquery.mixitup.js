@@ -77,7 +77,7 @@
 			},
 			
 			load: {
-				filter: 'all',
+				filter: '.igreja', // define as fotos iniciais
 				sort: false
 			},
 			
