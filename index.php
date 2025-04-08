@@ -118,7 +118,7 @@ require_once("varconst.php");
                   <span class="mu-slider-small-title">Seja bem-vindo a</span>
                   <h2 class="mu-slider-title">Igreja Presbiteriana</h2>
                   <h2 class="mu-slider-title">Balneário Meia Ponte</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>
+                  <p>Lorem ipsum dolor sit amet. intameItaque voluptatem accusamus non quidem, deleniti optio.</p>
                   <!-- <a href="#" class="mu-readmore-btn">READ MORE</a> -->
                </div>
                <!-- / Top slider content -->
@@ -1251,7 +1251,7 @@ require_once("varconst.php");
                      <a href="#"><span class="fa fa-youtube"></span></a>
                   </div>
                   <div class="mu-footer-copyright">
-                     <p>Designed by <a rel="nofollow" href="#">Alexandre Damaso</a></p>
+                     <p>Desenvolvido por <a rel="nofollow" href="#">Alexandre Damaso</a></p>
                   </div>
                </div>
             </div>

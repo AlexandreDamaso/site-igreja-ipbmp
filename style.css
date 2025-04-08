@@ -2278,7 +2278,7 @@ RESERVATION SECTION
  FOOTER SECTION
 ====================*/
 #mu-footer {
-   background-color: #005912;
+   background-color: rgba(0, 89, 18, 0.8);
    display: inline;
    float: left;
    padding: 50px 0;
