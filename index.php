@@ -36,9 +36,9 @@ require_once("varconst.php");
 
 
    <!-- Google Fonts -->
-   <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+   <!-- <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'> -->
+   <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
+   <!-- <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'> -->
 
 
    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -267,7 +267,7 @@ require_once("varconst.php");
                            <li class="active"><a href="#programacao" data-toggle="tab">Programação</a></li>
                            <!-- <li><a href="#meals" data-toggle="tab">Eventos</a></li> -->
                            <li><a href="#snacks" data-toggle="tab">Projetos</a></li>
-                           <li><a href="#desserts" data-toggle="tab">Sociedades Interna</a></li>
+                           <li><a href="#sociedades" data-toggle="tab">Sociedades Interna</a></li>
                            <!-- <li><a href="#drinks" data-toggle="tab">Drinks</a></li> -->
                         </ul>
    
@@ -543,7 +543,7 @@ require_once("varconst.php");
                                  </div>
                               </div>
                            </div>
-                           <div class="tab-pane fade " id="desserts">
+                           <div class="tab-pane fade " id="sociedades">
                               <div class="mu-tab-content-area">
                                  <div class="row">
                                     <div class="col-md-6">
@@ -553,7 +553,7 @@ require_once("varconst.php");
                                                 <div class="media">
                                                    <div class="media-left">
                                                       <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                         <img class="media-object" src="./src/img/sociedades/logo_uph.jpg" alt="img">
                                                       </a>
                                                    </div>
                                                    <div class="media-body">
@@ -1347,7 +1347,7 @@ require_once("varconst.php");
    <!-- Start Map section -->
    <section id="mu-map">
       <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9207.358598888495!2d-85.64847801496286!3d30.183918972289003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x2320479d70eb6202!2sDillard&#39;s!5e0!3m2!1sbn!2sbd!4v1462359735720" width="100%" height="100%" frameborder="0" allowfullscreen></iframe> -->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.026240852137!2d-49.286303046608026!3d-16.62545215742017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef49fd4f69dd5%3A0xdc887dec9bbcf4f1!2sIgreja%20Presbiteriana%20Balne%C3%A1rio%20Meia%20Ponte!5e0!3m2!1spt-BR!2sbr!4v1743737439635!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.910115860897!2d-49.28705722509626!3d-16.62545578413758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef49fd4f69dd5%3A0xdc887dec9bbcf4f1!2sIgreja%20Presbiteriana%20Balne%C3%A1rio%20Meia%20Ponte!5e1!3m2!1spt-BR!2sbr!4v1744120548751!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       
    </section>
    <!-- End Map section -->

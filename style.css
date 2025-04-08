@@ -30,9 +30,20 @@
 #RESPONSIVE DESIGN
 */
 /* BASE - Base tyles, Variables, Mixins, etc. */
+
+@font-face {
+  font-family: "Tangerine";
+  src: local('Tangerine'), url(./src/fonts/Tangerine-Regular.ttf)
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local('Open Sans'), url(./src/fonts/OpenSans-Regular.ttf)
+}
+
 body {
    background-color: #ffffff;
-   font-family: "Prata", serif;
+   font-family: "Open Sans", sans-serif;
    color: #333333;
    font-size: 15px;
    overflow-x: hidden;
@@ -719,7 +730,7 @@ img {
    display: inline;
    float: left;
    margin-bottom: 20px;
-   padding-bottom: 15px;
+   padding-bottom: 0px;
    width: 100%;
 }
 
