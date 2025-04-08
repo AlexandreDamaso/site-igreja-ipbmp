@@ -341,7 +341,7 @@ img {
 }
 
 #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single:after {
-   background-color: rgba(0, 89, 18, 0.8);
+   background-color: rgba(0, 89, 18, 0.6);
    bottom: 0;
    content: "";
    left: 0;
@@ -628,7 +628,7 @@ img {
 #mu-restaurant-menu .mu-restaurant-menu-overlay {
    background-color: rgba(0, 89, 18, 0.8);
    display: inline;
-   padding: 100px 0;
+   padding: 100px 0 50px 0;
    float: left;
    width: 100%;
 }
@@ -684,11 +684,27 @@ img {
    padding: 50px 0;
 }
 
+#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .row {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content #programacao p::before {
+   content: "\f24d";
+   font-family: fontAwesome;
+   margin-left: 50px;
+   margin-right: 10px;
+}
+#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content #programacao span {
+   font-weight: 700;
+}
+
 #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-tab-content-left {
-   display: inline;
+   /* display: inline;
    float: left;
    padding-right: 15px;
-   width: 100%;
+   width: 100%; */
 }
 
 #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-tab-content-right {

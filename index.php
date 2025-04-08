@@ -264,7 +264,7 @@ require_once("varconst.php");
                      </div>
                      <div class="mu-restaurant-menu-content">
                         <ul class="nav nav-tabs mu-restaurant-menu">
-                           <li class="active"><a href="#breakfast" data-toggle="tab">Programação</a></li>
+                           <li class="active"><a href="#programacao" data-toggle="tab">Programação</a></li>
                            <!-- <li><a href="#meals" data-toggle="tab">Eventos</a></li> -->
                            <li><a href="#snacks" data-toggle="tab">Projetos</a></li>
                            <li><a href="#desserts" data-toggle="tab">Sociedades Interna</a></li>
@@ -273,7 +273,7 @@ require_once("varconst.php");
    
                         <!-- Tab panes -->
                         <div class="tab-content">
-                           <div class="tab-pane fade in active" id="breakfast">
+                           <div class="tab-pane fade in active" id="programacao">
                               <div class="mu-tab-content-area">
                                  <div class="row">
                                     <div class="col-md-6">
@@ -281,85 +281,67 @@ require_once("varconst.php");
                                           <ul class="mu-menu-item-nav">
                                              <li>
                                                 <div class="media">
-                                                   <div class="media-left">
+                                                   <!-- <div class="media-left">
                                                       <a href="#">
                                                          <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
                                                       </a>
-                                                   </div>
+                                                   </div> -->
                                                    <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                      <h4 class="media-heading">TERÇA-FEIRA</h4>
+                                                      <p>Visita Pastoral e do Ministério de Visitação</p>
                                                    </div>
                                                 </div>
                                              </li>
                                              <li>
                                                 <div class="media">
-                                                   <div class="media-left">
+                                                   <!-- <div class="media-left">
                                                       <a href="#">
                                                          <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
                                                       </a>
-                                                   </div>
+                                                   </div> -->
                                                    <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                      <h4 class="media-heading">QUARTA-FEIRA</h4>
+                                                      <p><span>20:00h</span> - Estudo Bíblico</p>
                                                    </div>
                                                 </div>
                                              </li>
                                              <li>
                                                 <div class="media">
-                                                   <div class="media-left">
-                                                      <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                      </a>
-                                                   </div>
-                                                   <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="mu-tab-content-right">
-                                          <ul class="mu-menu-item-nav">
-                                             <li>
-                                                <div class="media">
-                                                   <div class="media-left">
-                                                      <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                      </a>
-                                                   </div>
-                                                   <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                             <li>
-                                                <div class="media">
-                                                   <div class="media-left">
+                                                   <!-- <div class="media-left">
                                                       <a href="#">
                                                          <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
                                                       </a>
-                                                   </div>
+                                                   </div> -->
                                                    <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                      <h4 class="media-heading">SEXTA-FEIRA</h4>
+                                                      <p><span>20:00h</span> - Reunião de oração</p>
                                                    </div>
                                                 </div>
                                              </li>
                                              <li>
                                                 <div class="media">
-                                                   <div class="media-left">
+                                                   <!-- <div class="media-left">
                                                       <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
                                                       </a>
-                                                   </div>
+                                                   </div> -->
                                                    <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                      <h4 class="media-heading">SÁBADO</h4>
+                                                      <p><span>19:30h</span> - Reunião de Jovens/Adolescentes</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                      <a href="#">
+                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">DOMINGO</h4>
+                                                      <p><span>09:00h</span> - Escola Bíblica Dominical</p>
+                                                      <p><span>19:00h</span> - Culto de Louvor e Adoração</p>
                                                    </div>
                                                 </div>
                                              </li>
@@ -854,11 +836,11 @@ require_once("varconst.php");
                         <!-- Start gallery menu -->
                         <ul>
                            <!-- <li class="filter active" data-filter="all">ALL</li> -->
-                           <li class="filter active" data-filter=".igreja">IGREJA</li>
-                           <li class="filter" data-filter=".drink">EBD</li>
-                           <li class="filter" data-filter=".dinner">ENCONTROS</li>
+                           <li class="filter active" data-filter=".igreja">A IGREJA</li>
+                           <li class="filter" data-filter=".encontros">ENCONTROS</li>
                            <li class="filter" data-filter=".dessert">EVANGELISMO</li>
-                           <li class="filter" data-filter=".restaurant">EBF</li>
+                           <li class="filter" data-filter=".restaurant">E.B.F.</li>
+                           <!-- <li class="filter" data-filter=".drink">E.BD</li> -->
                         </ul>
                      </div>
                      <!-- Start gallery image -->
@@ -878,7 +860,7 @@ require_once("varconst.php");
                         </div>
                         <!-- End single gallery image -->
                         <!-- start single gallery image -->
-                        <div class="mu-single-gallery col-md-4 mix drink">
+                        <div class="mu-single-gallery col-md-4 mix igreja">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
                                  <a href="#"><img alt="img" src="./src/img/gallery/small/2.jpg"></a>
@@ -892,7 +874,7 @@ require_once("varconst.php");
                         </div>
                         <!-- End single gallery image -->
                         <!-- start single gallery image -->
-                        <div class="mu-single-gallery col-md-4 mix restaurant">
+                        <div class="mu-single-gallery col-md-4 mix igreja">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
                                  <a href="#"><img alt="img" src="./src/img/gallery/small/3.jpg"></a>
@@ -906,7 +888,7 @@ require_once("varconst.php");
                         </div>
                         <!-- End single gallery image -->
                         <!-- start single gallery image -->
-                        <div class="mu-single-gallery col-md-4 mix dinner">
+                        <div class="mu-single-gallery col-md-4 mix igreja">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
                                  <a href="#"><img alt="img" src="./src/img/gallery/small/4.jpg"></a>
@@ -920,7 +902,7 @@ require_once("varconst.php");
                         </div>
                         <!-- End single gallery image -->
                         <!-- start single gallery image -->
-                        <div class="mu-single-gallery col-md-4 mix dinner">
+                        <div class="mu-single-gallery col-md-4 mix igreja">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
                                  <a href="#"><img alt="img" src="./src/img/gallery/small/5.jpg"></a>
@@ -934,7 +916,7 @@ require_once("varconst.php");
                         </div>
                         <!-- End single gallery image -->
                         <!-- start single gallery image -->
-                        <div class="mu-single-gallery col-md-4 mix igreja">
+                        <div class="mu-single-gallery col-md-4 mix encontros">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
                                  <a href="#"><img alt="img" src="./src/img/gallery/small/6.jpg"></a>
