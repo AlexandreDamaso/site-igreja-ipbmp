@@ -69,25 +69,25 @@ Author URI : http://www.markups.io/
   background-color: #ff871c;
 }
 
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+#mu-informes .mu-informes-area .mu-informes-content .mu-informes {
   border-bottom: 1px solid #ff871c;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
+#mu-informes .mu-informes-area .mu-informes-content .mu-informes li a {
   background-color: #ff871c;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a:hover, #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a:focus {
+#mu-informes .mu-informes-area .mu-informes-content .mu-informes li a:hover, #mu-informes .mu-informes-area .mu-informes-content .mu-informes li a:focus {
   border-color: #ff871c #ff871c transparent;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a,
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a:hover,
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a:focus {
+#mu-informes .mu-informes-area .mu-informes-content .mu-informes .active a,
+#mu-informes .mu-informes-area .mu-informes-content .mu-informes .active a:hover,
+#mu-informes .mu-informes-area .mu-informes-content .mu-informes .active a:focus {
   color: #ff871c;
   border-color: #ff871c #ff871c transparent;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a:hover, #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a:focus {
+#mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a:hover, #mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a:focus {
   color: #ff871c;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .mu-menu-price {
+#mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .mu-menu-price {
   color: #ff871c;
 }
 

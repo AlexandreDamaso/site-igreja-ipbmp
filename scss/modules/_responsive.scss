@@ -140,7 +140,7 @@
 	#mu-reservation .mu-reservation-area .mu-reservation-content {	 
 	  padding: 0 50px;	  
 	}
-	#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {	  
+	#mu-informes .mu-informes-area .mu-informes-content .mu-informes li a {	  
 	  font-size: 16px;
 	  margin: 0 5px;	  
 	}	
@@ -192,7 +192,7 @@
 	#mu-slider .mu-slider-area .mu-top-slider .slick-prev, #mu-slider .mu-slider-area .mu-top-slider .slick-next {	 
 	  opacity: 0;	  
 	}
-	#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
+	#mu-informes .mu-informes-area .mu-informes-content .mu-informes li a {
 	  font-size: 14px;
 	  margin: 0 2px;
 	}
@@ -252,7 +252,7 @@
 	#mu-map {	 
 	  height: 350px;	  
 	}
-	#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
+	#mu-informes .mu-informes-area .mu-informes-content .mu-informes li {
 	  margin-bottom: 10px;
 	}
 	.mu-blog-related-post .mu-blog-related-post-area {	 
@@ -263,13 +263,13 @@
 
 
 @media(max-width:360px ){	
-	#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {	 
+	#mu-informes .mu-informes-area .mu-informes-content .mu-informes li {	 
 	  margin-bottom: 12px;
 	}
 	#mu-about-us {	 
 	  padding: 100px 0 50px;	  
 	}
-	#mu-restaurant-menu {	 
+	#mu-informes {	 
 	  padding-bottom: 0px;
 	}	
 	#mu-reservation .mu-reservation-area .mu-reservation-content {
@@ -346,13 +346,13 @@
 	#mu-error .mu-error-area {
 	  padding: 0 15px 30px;
 	}
-	#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left {
+	#mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left {
 	  height: 100px;
 	  width: 100px;
 	  margin-right: 10px;
 	  float: left;
 	}
-	#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a img {
+	#mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left a img {
 	  height: 100%;
 	  width: 100%;
 	}

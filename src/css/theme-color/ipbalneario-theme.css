@@ -69,34 +69,34 @@ Author URI : http://www.markups.io/
   background-color: #c1a35f;
 }
 
-#mu-restaurant-menu .mu-title .mu-subtitle {
+#mu-informes .mu-title .mu-subtitle {
   color: #C3F025;
 }
 
-#mu-restaurant-menu h2 {
+#mu-informes h2 {
   color: #ffffff;
 }
 
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu {
+#mu-informes .mu-informes-area .mu-informes-content .mu-informes {
   border-bottom: 1px solid #ccc;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a {
+#mu-informes .mu-informes-area .mu-informes-content .mu-informes li a {
   background-color: #005912;
   border: 1px solid #ccc;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a:hover, #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li a:focus {
+#mu-informes .mu-informes-area .mu-informes-content .mu-informes li a:hover, #mu-informes .mu-informes-area .mu-informes-content .mu-informes li a:focus {
   border-color: #ccc #ccc ;
 }
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a,
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a:hover,
-#mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu .active a:focus {
+#mu-informes .mu-informes-area .mu-informes-content .mu-informes .active a,
+#mu-informes .mu-informes-area .mu-informes-content .mu-informes .active a:hover,
+#mu-informes .mu-informes-area .mu-informes-content .mu-informes .active a:focus {
   color: #005912;
   border-color: #ccc #ccc transparent;
 }
-/* #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a:hover, #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a:focus {
+/* #mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a:hover, #mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .media-heading a:focus {
   color: #fff;
 } */
-/* #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .mu-menu-price {
+/* #mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .mu-menu-item-nav li .media .media-body .mu-menu-price {
   color: #c1a35f;
 } */
 

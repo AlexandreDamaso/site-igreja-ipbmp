@@ -83,7 +83,7 @@ require_once("varconst.php");
                <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
                   <li><a href="#mu-slider">HOME</a></li>
                   <li><a href="#mu-about-us">SOBRE</a></li>
-                  <li><a href="#mu-restaurant-menu">INFORMATIVOS</a></li>
+                  <li><a href="#mu-informes">INFORMES</a></li>
                   <!-- <li><a href="#mu-reservation">RESERVAS</a></li> -->
                   <li><a href="#mu-gallery">FOTOS</a></li>
                   <!-- <li><a href="#mu-chef">NOSSA EQUIPE</a></li> -->
@@ -249,21 +249,21 @@ require_once("varconst.php");
    <!-- End Counter Section -->
 
    <!-- Start Restaurant Menu -->
-   <section id="mu-restaurant-menu">
-      <div class="mu-restaurant-menu-overlay">
+   <section id="mu-informes">
+      <div class="mu-informes-overlay">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <div class="mu-restaurant-menu-area">
+                  <div class="mu-informes-area">
                      <div class="mu-title">
                         <!-- <span class="mu-subtitle">Discover</span> -->
-                        <h2>INFORMATIVOS</h2>
+                        <h2>INFORMES</h2>
                         <!-- <i class="fa fa-spoon"></i> -->
                         <figure class="fa icon-cross"><img src="./src/img/cross-dark.svg" alt=""></figure>
                         <span class="mu-title-bar"></span>
                      </div>
-                     <div class="mu-restaurant-menu-content">
-                        <ul class="nav nav-tabs mu-restaurant-menu">
+                     <div class="mu-informes-content">
+                        <ul class="nav nav-tabs mu-informes">
                            <li class="active"><a href="#programacao" data-toggle="tab">Programação</a></li>
                            <!-- <li><a href="#meals" data-toggle="tab">Eventos</a></li> -->
                            <li><a href="#snacks" data-toggle="tab">Projetos</a></li>
@@ -557,8 +557,8 @@ require_once("varconst.php");
                                                       </a>
                                                    </div>
                                                    <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                      <h4 class="media-heading">União Presbiteriana de Homens</h4>
+                                                      <p><strong>UPH</strong> - União Presbiteriana de Homens tem o objetivo de estimular a comunhão, vida devocional, aprendizados e fortalecer sua atuação na vida mais ampla da Igreja local, contribuindo para o fortalecimento da comunidade. “Confiança em Jesus, entusiasmo na ação, união fraternal.”</p>
                                                    </div>
                                                 </div>
                                              </li>
@@ -566,12 +566,12 @@ require_once("varconst.php");
                                                 <div class="media">
                                                    <div class="media-left">
                                                       <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                         <img class="media-object" src="./src/img/sociedades/logo_saf.jpg" alt="img">
                                                       </a>
                                                    </div>
                                                    <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                      <h4 class="media-heading">Sociedades Auxiliadoras Femininas da IPB</h4>
+                                                      <p><strong>SAF</strong> - Sociedade Auxiliadora Feminina é o trabalho feminino que tem por objetivo auxiliar cada igreja, cada congregação, consciente de seu papel de mulher como parte do Corpo de Cristo. “Sejamos verdadeiras auxiliadoras, irrepreensíveis na conduta, incansáveis na luta, firmes na fé e vitoriosas por Cristo Jesus.”</p>
                                                    </div>
                                                 </div>
                                              </li>
@@ -579,31 +579,12 @@ require_once("varconst.php");
                                                 <div class="media">
                                                    <div class="media-left">
                                                       <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                         <img class="media-object" src="./src/img/sociedades/logo_ump.jpg" alt="img">
                                                       </a>
                                                    </div>
                                                    <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="mu-tab-content-right">
-                                          <ul class="mu-menu-item-nav">
-                                             <li>
-                                                <div class="media">
-                                                   <div class="media-left">
-                                                      <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                      </a>
-                                                   </div>
-                                                   <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                      <h4 class="media-heading">União de Mocidade Presbiteriana</h4>
+                                                      <p><strong>UMP</strong> - União de Mocidade Presbiteriana é uma das Sociedades Internas da IPB que abrange jovens entre 18 e 35 anos com o objetivo de atuar no planejamento de atividades e cuidado com os jovens de cada igreja local e entre diferentes igrejas no país. “Alegres na esperança, fortes na fé, dedicados no amor, unidos no trabalho.”</p>
                                                    </div>
                                                 </div>
                                              </li>
@@ -611,12 +592,12 @@ require_once("varconst.php");
                                                 <div class="media">
                                                    <div class="media-left">
                                                       <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
+                                                         <img class="media-object" src="./src/img/sociedades/logo_upa.jpg" alt="img">
                                                       </a>
                                                    </div>
                                                    <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                      <h4 class="media-heading">União Presbiteriana de Adolescentes</h4>
+                                                      <p><strong>UPA</strong> - União Presbiteriana de Adolescentes engloba adolescentes de 12 a 18 anos e tem por objetivo a organização de atividades que promovam comunhão, crescimento espiritual, além de fortalecer sua identidade em Cristo. “Ao Mestre sejamos fiéis, nas trevas sejamos luz, nas lutas sejamos fortes, servindo ao Senhor Jesus”.</p>
                                                    </div>
                                                 </div>
                                              </li>
@@ -624,108 +605,12 @@ require_once("varconst.php");
                                                 <div class="media">
                                                    <div class="media-left">
                                                       <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                         <img class="media-object" src="./src/img/sociedades/logo_ucp.jpg" alt="img">
                                                       </a>
                                                    </div>
                                                    <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="tab-pane fade " id="drinks">
-                              <div class="mu-tab-content-area">
-                                 <div class="row">
-                                    <div class="col-md-6">
-                                       <div class="mu-tab-content-left">
-                                          <ul class="mu-menu-item-nav">
-                                             <li>
-                                                <div class="media">
-                                                   <div class="media-left">
-                                                      <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                      </a>
-                                                   </div>
-                                                   <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                             <li>
-                                                <div class="media">
-                                                   <div class="media-left">
-                                                      <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
-                                                      </a>
-                                                   </div>
-                                                   <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                             <li>
-                                                <div class="media">
-                                                   <div class="media-left">
-                                                      <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                      </a>
-                                                   </div>
-                                                   <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="mu-tab-content-right">
-                                          <ul class="mu-menu-item-nav">
-                                             <li>
-                                                <div class="media">
-                                                   <div class="media-left">
-                                                      <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                      </a>
-                                                   </div>
-                                                   <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                             <li>
-                                                <div class="media">
-                                                   <div class="media-left">
-                                                      <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-2.jpg" alt="img">
-                                                      </a>
-                                                   </div>
-                                                   <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
-                                                   </div>
-                                                </div>
-                                             </li>
-                                             <li>
-                                                <div class="media">
-                                                   <div class="media-left">
-                                                      <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                      </a>
-                                                   </div>
-                                                   <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                      <h4 class="media-heading">União de Crianças Presbiterianas</h4>
+                                                      <p><strong>UCP</strong> - União de Crianças Presbiterianas, é uma sociedade Interna da IPB que tem a finalidade de unir as crianças de 6 a 11 anos da Igreja proporcionando os meios adequados para que elas cresçam espiritualmente, moralmente, intelectualmente e socialmente. “Batalhando por Cristo, lutando com amor, sou um soldado de nosso Senhor.”</p>
                                                    </div>
                                                 </div>
                                              </li>
