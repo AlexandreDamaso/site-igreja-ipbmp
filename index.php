@@ -2,8 +2,6 @@
 
 require_once("varconst.php");
 
-
-
 ?>
 
 <!DOCTYPE html>
@@ -115,7 +113,7 @@ require_once("varconst.php");
                <img src="./src/img/slider/1.jpg" alt="img">
                <!-- Top slider content -->
                <div class="mu-top-slider-content">
-                  <span class="mu-slider-small-title">Seja bem-vindo a</span>
+                  <span class="mu-slider-small-title">Seja bem-vindo</span>
                   <h2 class="mu-slider-title">Igreja Presbiteriana</h2>
                   <h2 class="mu-slider-title">Balneário Meia Ponte</h2>
                   <p>Lorem ipsum dolor sit amet. intameItaque voluptatem accusamus non quidem, deleniti optio.</p>
@@ -172,16 +170,14 @@ require_once("varconst.php");
                   <div class="row">
                      <div class="col-md-6">
                         <div class="mu-about-us-left">
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus aliquid, itaque illum assumenda repellendus dolorem, dolore numquam totam saepe, porro delectus, libero enim odio quo. Explicabo ex sapiente sit eligendi, facere voluptatum! Quia vero rerum sunt porro architecto corrupti eaque corporis eum, enim soluta, perferendis dignissimos, repellendus, beatae laboriosam.</p>
+                           <p>A Igreja Presbiteriana do Brasil é uma igreja protestante, reformada e de orientação calvinista presbiteriana, ou seja, é governada por um conselho de homens escolhidos pela comunidade dos membros, chamados de “presbíteros”.</p>
+                           <p>Os presbiterianos crêem que uma teologia correta, equilibrada e bíblica é essencial para a vida do cristão. Todo crente, mesmo sem o saber, tem concepções teológicas e essas concepções irão influenciar todos os aspectos da sua vida cristã. Os reformados não valorizam a teologia pela teologia, mas como um instrumento para nos proporcionar um melhor conhecimento de Deus e do nosso relacionamento com ele.</p>
+                           <p>A fé reformada abraça três categorias de doutrinas:</p>
                            <ul>
-                              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
+                              <li>algumas delas são aceitas por todos os cristãos, como a trindade, o caráter divino-humano de Jesus Cristo, a sua ressurreição, sua morte expiatória, a segunda vinda, etc. – essencialmente, as verdades afirmadas pelos grandes concílios da igreja antiga, nos séculos IV e V;</li>
+                              <li>outras doutrinas são as que temos em comum com as demais igrejas protestantes ou evangélicas: as Escrituras como única regra de fé e prática, a suficiência da obra redentora de Cristo, a salvação exclusivamente pela graça mediante a fé, o sacerdócio universal dos crentes, os sacramentos do batismo e da santa ceia, etc.;</li>
+                              <li>finalmente, existem aquelas doutrinas e práticas mais específicas dos presbiterianos, como a ênfase na absoluta soberania de Deus, a conseqüente crença na eleição ou predestinação, o batismo por “aspersão” e o batismo infantil, e a forma de governo presbiterial.</li>
                            </ul>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias est quod reprehenderit, quibusdam nam qui, quam magnam. Ex.</p>
                         </div>
                      </div>
                      <div class="col-md-6">
@@ -266,9 +262,9 @@ require_once("varconst.php");
                         <ul class="nav nav-tabs mu-informes">
                            <li class="active"><a href="#programacao" data-toggle="tab">Programação</a></li>
                            <!-- <li><a href="#meals" data-toggle="tab">Eventos</a></li> -->
-                           <li><a href="#snacks" data-toggle="tab">Projetos</a></li>
+                           <li><a href="#snacks" data-toggle="tab">Notícias</a></li>
                            <li><a href="#sociedades" data-toggle="tab">Sociedades Interna</a></li>
-                           <!-- <li><a href="#drinks" data-toggle="tab">Drinks</a></li> -->
+                           <li><a href="#calendario" data-toggle="tab">Calendário Oficial 2025</a></li>
                         </ul>
    
                         <!-- Tab panes -->
@@ -456,17 +452,17 @@ require_once("varconst.php");
                                              <li>
                                                 <div class="media">
                                                    <div class="media-left">
-                                                      <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
-                                                      </a>
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <!-- <a href="#">
+                                                      </a> -->
                                                    </div>
                                                    <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                      <h4 class="media-heading">ESCOLA BÍBLICA DOMINICAL</h4>
+                                                      <p>A Escola Bíblica Dominical (EBD) da Igreja Presbiteriana do Brasil (IPB) tem como objetivo evangelizar, amadurecer a vida cristã e preparar os cristãos para o serviço de Deus. <br/>Todos os <strong>domingos</strong> às <strong>09h</strong>.</p>
                                                    </div>
                                                 </div>
                                              </li>
-                                             <li>
+                                             <!-- <li>
                                                 <div class="media">
                                                    <div class="media-left">
                                                       <a href="#">
@@ -478,8 +474,8 @@ require_once("varconst.php");
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                                    </div>
                                                 </div>
-                                             </li>
-                                             <li>
+                                             </li> -->
+                                             <!-- <li>
                                                 <div class="media">
                                                    <div class="media-left">
                                                       <a href="#">
@@ -491,7 +487,7 @@ require_once("varconst.php");
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                                    </div>
                                                 </div>
-                                             </li>
+                                             </li> -->
                                           </ul>
                                        </div>
                                     </div>
@@ -501,17 +497,17 @@ require_once("varconst.php");
                                              <li>
                                                 <div class="media">
                                                    <div class="media-left">
-                                                      <a href="#">
-                                                         <img class="media-object" src="./src/img/menu/item-1.jpg" alt="img">
+                                                      <a href="https://www.youtube.com/@canalverdadeevida" target="_blank">
+                                                         <img class="media-object" src="./src/img/menu/item-02.jpg" alt="img">
                                                       </a>
                                                    </div>
                                                    <div class="media-body">
-                                                      <h4 class="media-heading">ENGLISH BREAKFAST</h4>
-                                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
+                                                      <h4 class="media-heading">PROGRAMA VERDADE E VIDA</h4>
+                                                      <p>Verdade e Vida é um programa da Igreja Presbiteriana do Brasil e tem a missão de adorar a Deus e propagar o Evangelho do nosso Senhor e Salvador Jesus Cristo de forma autêntica e fiel às Escrituras Sagradas. Todos os <strong>sábados</strong>, às <strong>08h</strong>, no canal Verdade e Vida no Youtube. Para acessar <strong>clique na imagem</strong>.</p>
                                                    </div>
                                                 </div>
                                              </li>
-                                             <li>
+                                             <!-- <li>
                                                 <div class="media">
                                                    <div class="media-left">
                                                       <a href="#">
@@ -523,8 +519,8 @@ require_once("varconst.php");
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                                    </div>
                                                 </div>
-                                             </li>
-                                             <li>
+                                             </li> -->
+                                             <!-- <li>
                                                 <div class="media">
                                                    <div class="media-left">
                                                       <a href="#">
@@ -536,7 +532,7 @@ require_once("varconst.php");
                                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nulla aliquid praesentium dolorem commodi illo.</p>
                                                    </div>
                                                 </div>
-                                             </li>
+                                             </li> -->
                                           </ul>
                                        </div>
                                     </div>
@@ -611,6 +607,202 @@ require_once("varconst.php");
                                                    <div class="media-body">
                                                       <h4 class="media-heading">União de Crianças Presbiterianas</h4>
                                                       <p><strong>UCP</strong> - União de Crianças Presbiterianas, é uma sociedade Interna da IPB que tem a finalidade de unir as crianças de 6 a 11 anos da Igreja proporcionando os meios adequados para que elas cresçam espiritualmente, moralmente, intelectualmente e socialmente. “Batalhando por Cristo, lutando com amor, sou um soldado de nosso Senhor.”</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane fade " id="calendario">
+                              <div class="mu-tab-content-area">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <div class="mu-tab-content-left">
+                                          <ul class="mu-menu-item-nav">
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <a href="#">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">JANEIRO</h4>
+                                                      <p>05 a 11 – Semana Mundial de Oração (1° domingo do mês a sábado)</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <a href="#">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">FEVEREIRO</h4>
+                                                      <p>1º domingo - Dia do Homem Presbiteriano</p>
+                                                      <p>2º domingo - Dia da Mulher Presbiteriana</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <a href="#">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">MARÇO</h4>
+                                                      <p>10 - Primeiro Culto Protestante no Brasil</p>
+                                                      <p>11 - Dia da Educação Cristã</p>
+                                                      <p>27 - Dia da Casa Editora Presbiteriana</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <a href="#">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">ABRIL</h4>
+                                                      <p>18 - Dia da Paixão de Cristo</p>
+                                                      <p>20 - Páscoa</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <a href="#">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">MAIO</h4>
+                                                      <p>1º domingo - Dia do Músico Presbiteriano</p>
+                                                      <p>2º domingo - Dia das Mães</p>
+                                                      <p>3º domingo - Dia do Jovem Presbiteriano</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <a href="#">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">JUNHO</h4>
+                                                      <p>10 - Instalada a Sociedade Bíblica do Brasil</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <div class="mu-tab-content-right">
+                                          <ul class="mu-menu-item-nav">
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <a href="#">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">JULHO</h4>
+                                                      <p>01 a 31 - Mês dos Pastores Jubilados e Viúvas de Pastores</p>
+                                                      <p>09 - Dia do Diácono Presbiteriano</p>
+                                                      <p>4º domingo - Dia do Adolescente Presbiteriano</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <a href="#">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">AGOSTO</h4>
+                                                      <p>02 - Dia do Doador de Sangue Presbiteriano</p>
+                                                      <p>1º domingo - Dia do Presbítero Presbiteriano</p>
+                                                      <p>2º domingo - Dia dos Pais</p>
+                                                      <p>12 - Dia do Presbiterianismo Nacional e Dia das Missões</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <a href="#">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">SETEMBRO</h4>
+                                                      <p>Mês de aniversário do Jornal Brasil Presbiteriano</p>
+                                                      <p>08 - Dia dos Seminários e Seminaristas</p>
+                                                      <p>3º domingo - Dia da Escola Dominical</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <a href="#">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">OUTUBRO</h4>
+                                                      <p>11 - Dia da SAF em Revista</p>
+                                                      <p>12 - Dia das Crianças e Dia Nacional das Crianças Presbiterianas</p>
+                                                      <p>31 - Dia da Reforma Protestante</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <a href="#">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">NOVEMBRO</h4>
+                                                      <p>05 - Circula pela primeira vez o Imprensa Evangélica</p>
+                                                      <p>11 - Dia Nacional da SAF</p>
+                                                      <p>4ª quinta-feira - Dia Nacional de Ação de Graças</p>
+                                                      <p>30 - Dia do Teólogo</p>
+                                                   </div>
+                                                </div>
+                                             </li>
+                                             <li>
+                                                <div class="media">
+                                                   <!-- <div class="media-left">
+                                                         <img class="media-object" src="./src/img/menu/item-01.jpg" alt="img">
+                                                      <a href="#">
+                                                      </a>
+                                                   </div> -->
+                                                   <div class="media-body">
+                                                      <h4 class="media-heading">DEZEMBRO</h4>
+                                                      <p>08 - Dia Nacional da Família</p>
+                                                      <p>2º domingo - Dia da Bíblia e Dia da Esposa do Pastor Presbiteriano</p>
+                                                      <p>17 - Dia do Pastor Presbiteriano</p>
+                                                      <p>25 - Natal</p>
+                                                      <p>31 - Ano Novo</p>
                                                    </div>
                                                 </div>
                                              </li>
@@ -1163,13 +1355,12 @@ require_once("varconst.php");
    <!-- End Latest News -->
 
    <!-- Start Contact section -->
-   <section id="mu-contact">
+   <!-- <section id="mu-contact">
       <div class="container">
          <div class="row">
             <div class="col-md-12">
                <div class="mu-contact-area">
                   <div class="mu-title">
-                     <!-- <span class="mu-subtitle">Get In Touch</span> -->
                      <h2>CONTATE-NOS</h2>
                      <i class="fa fa-spoon"></i>
                      <span class="mu-title-bar"></span>
@@ -1210,14 +1401,6 @@ require_once("varconst.php");
                                     <p><i class="fa fa-map-marker"></i>-16.62521, -49.28443</p>
                                  </address>
                               </div>
-                              <!-- <div class="mu-contact-widget">
-                                 <h3>Open Hours</h3>
-                                 <address>
-                                    <p><span>Monday - Friday</span> 9.00 am to 12 pm</p>
-                                    <p><span>Saturday</span> 9.00 am to 10 pm</p>
-                                    <p><span>Sunday</span> 10.00 am to 12 pm</p>
-                                 </address>
-                              </div> -->
                            </div>
                         </div>
                      </div>
@@ -1226,12 +1409,11 @@ require_once("varconst.php");
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
    <!-- End Contact section -->
 
    <!-- Start Map section -->
    <section id="mu-map">
-      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9207.358598888495!2d-85.64847801496286!3d30.183918972289003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x2320479d70eb6202!2sDillard&#39;s!5e0!3m2!1sbn!2sbd!4v1462359735720" width="100%" height="100%" frameborder="0" allowfullscreen></iframe> -->
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.910115860897!2d-49.28705722509626!3d-16.62545578413758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef49fd4f69dd5%3A0xdc887dec9bbcf4f1!2sIgreja%20Presbiteriana%20Balne%C3%A1rio%20Meia%20Ponte!5e1!3m2!1spt-BR!2sbr!4v1744120548751!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       
    </section>
@@ -1245,13 +1427,11 @@ require_once("varconst.php");
                <div class="mu-footer-area">
                   <div class="mu-footer-social">
                      <a href="#"><span class="fa fa-facebook"></span></a>
-                     <a href="#"><span class="fa fa-twitter"></span></a>
-                     <a href="#"><span class="fa fa-google-plus"></span></a>
-                     <a href="#"><span class="fa fa-linkedin"></span></a>
-                     <a href="#"><span class="fa fa-youtube"></span></a>
+                     <a href="#"><span class="fa fa-instagram"></span></a>
+                     <a href="https://www.youtube.com/@ipbmp" target="_blank"><span class="fa fa-youtube"></span></a>
                   </div>
                   <div class="mu-footer-copyright">
-                     <p>Desenvolvido por <a rel="nofollow" href="#">Alexandre Damaso</a></p>
+                     <p>Desenvolvido por Alexandre Damaso</p>
                   </div>
                </div>
             </div>

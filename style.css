@@ -242,6 +242,7 @@ img {
 .mu-main-navbar .navbar-header .navbar-brand img {
    width: 100%;
    height: 100%;
+   /* margin-left: 15px; */
 }
 
 .mu-main-navbar .navbar-header .navbar-brand-small {
@@ -698,7 +699,7 @@ img {
 #mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .row {
    display: flex;
    justify-content: center;
-   align-items: center;
+   flex-wrap: wrap;
 }
 
 #mu-informes .mu-informes-area .mu-informes-content #programacao p::before {
@@ -721,7 +722,7 @@ img {
 #mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .mu-tab-content-right {
    display: inline;
    float: left;
-   padding-left: 15px;
+   /* padding-left: 15px; */
    width: 100%;
 }
 
@@ -730,14 +731,14 @@ img {
    display: inline;
    float: left;
    margin-bottom: 20px;
-   padding-bottom: 0px;
+   padding-bottom: 15px;
    width: 100%;
 }
 
-#mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .mu-menu-item-nav li:last-child {
+/* #mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .mu-menu-item-nav li:last-child {
    border-bottom: none;
    margin-bottom: 0;
-}
+} */
 
 #mu-informes .mu-informes-area .mu-informes-content .mu-tab-content-area .mu-menu-item-nav li .media .media-left {
    width: 110px;
@@ -2568,6 +2569,17 @@ RESERVATION SECTION
    }
 
    #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
+      display: flex;
+      justify-content: center;
+   }
+   
+   #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-small-title {
+      font-size: 45px;
+      padding-top: 40px;
+   }
+
+   #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content h2, 
+   #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content p {
       display: none;
    }
 
