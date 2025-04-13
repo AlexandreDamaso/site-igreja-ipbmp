@@ -75,7 +75,7 @@ require_once("varconst.php");
                   <span class="icon-bar"></span>
                </button>
                <!-- LOGO -->
-               <a class="navbar-brand" href="index.php"><img src="./src/img/logo.png" alt="Logo img"></a>
+               <a class="navbar-brand" href="index.php"><img src="./src/img/logo_ipbmp_texto_branco.png" alt="Logo img"></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
@@ -185,7 +185,7 @@ require_once("varconst.php");
                            <ul class="mu-abtus-slider">
                               <li><img src="./src/img/about-us/abtus-img-1.png" alt="img"></li>
                               <li><img src="./src/img/about-us/abtus-img-2.png" alt="img"></li>
-                              <li><img src="./src/img/about-us/abtus-img-6.png" alt="img"></li>
+                              <li><img src="./src/img/about-us/abtus-img-3.png" alt="img"></li>
                               <li><img src="./src/img/about-us/abtus-img-4.png" alt="img"></li>
                               <li><img src="./src/img/about-us/abtus-img-5.png" alt="img"></li>
                            </ul>
@@ -914,9 +914,9 @@ require_once("varconst.php");
                         <ul>
                            <!-- <li class="filter active" data-filter="all">ALL</li> -->
                            <li class="filter active" data-filter=".igreja">A IGREJA</li>
-                           <li class="filter" data-filter=".encontros">ENCONTROS</li>
-                           <li class="filter" data-filter=".dessert">EVANGELISMO</li>
-                           <li class="filter" data-filter=".restaurant">E.B.F.</li>
+                           <li class="filter" data-filter=".saf">S.A.F.</li>
+                           <li class="filter" data-filter=".ebf">E.B.F.</li>
+                           <!-- <li class="filter" data-filter=".dessert">EVANGELISMO</li> -->
                            <!-- <li class="filter" data-filter=".drink">E.BD</li> -->
                         </ul>
                      </div>
@@ -926,10 +926,10 @@ require_once("varconst.php");
                         <div class="mu-single-gallery col-md-4 mix igreja">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
-                                 <a href="#"><img alt="img" src="./src/img/gallery/small/1.jpg"></a>
+                                 <a href="#"><img alt="img" src="./src/img/gallery/small/01.jpg"></a>
                               </figure>
                               <div class="mu-single-gallery-info">
-                                 <a href="./src/img/gallery/big/1.jpg" data-fancybox-group="gallery" class="fancybox">
+                                 <a href="./src/img/gallery/big/01.jpg" data-fancybox-group="gallery" class="fancybox">
                                     <img src="./src/img/plus.png" alt="plus icon img">
                                  </a>
                               </div>
@@ -940,10 +940,10 @@ require_once("varconst.php");
                         <div class="mu-single-gallery col-md-4 mix igreja">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
-                                 <a href="#"><img alt="img" src="./src/img/gallery/small/2.jpg"></a>
+                                 <a href="#"><img alt="img" src="./src/img/gallery/small/02.jpg"></a>
                               </figure>
                               <div class="mu-single-gallery-info">
-                                 <a href="./src/img/gallery/big/2.jpg" data-fancybox-group="gallery" class="fancybox">
+                                 <a href="./src/img/gallery/big/02.jpg" data-fancybox-group="gallery" class="fancybox">
                                     <img src="./src/img/plus.png" alt="plus icon img">
                                  </a>
                               </div>
@@ -954,10 +954,10 @@ require_once("varconst.php");
                         <div class="mu-single-gallery col-md-4 mix igreja">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
-                                 <a href="#"><img alt="img" src="./src/img/gallery/small/3.jpg"></a>
+                                 <a href="#"><img alt="img" src="./src/img/gallery/small/03.jpg"></a>
                               </figure>
                               <div class="mu-single-gallery-info">
-                                 <a href="./src/img/gallery/big/3.jpg" data-fancybox-group="gallery" class="fancybox">
+                                 <a href="./src/img/gallery/big/03.jpg" data-fancybox-group="gallery" class="fancybox">
                                     <img src="./src/img/plus.png" alt="plus icon img">
                                  </a>
                               </div>
@@ -968,10 +968,10 @@ require_once("varconst.php");
                         <div class="mu-single-gallery col-md-4 mix igreja">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
-                                 <a href="#"><img alt="img" src="./src/img/gallery/small/4.jpg"></a>
+                                 <a href="#"><img alt="img" src="./src/img/gallery/small/04.jpg"></a>
                               </figure>
                               <div class="mu-single-gallery-info">
-                                 <a href="./src/img/gallery/big/4.jpg" data-fancybox-group="gallery" class="fancybox">
+                                 <a href="./src/img/gallery/big/04.jpg" data-fancybox-group="gallery" class="fancybox">
                                     <img src="./src/img/plus.png" alt="plus icon img">
                                  </a>
                               </div>
@@ -982,10 +982,26 @@ require_once("varconst.php");
                         <div class="mu-single-gallery col-md-4 mix igreja">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
-                                 <a href="#"><img alt="img" src="./src/img/gallery/small/5.jpg"></a>
+                                 <a href="#"><img alt="img" src="./src/img/gallery/small/05.jpg"></a>
                               </figure>
                               <div class="mu-single-gallery-info">
-                                 <a href="./src/img/gallery/big/5.jpg" data-fancybox-group="gallery" class="fancybox">
+                                 <a href="./src/img/gallery/big/05.jpg" data-fancybox-group="gallery" class="fancybox">
+                                    <img src="./src/img/plus.png" alt="plus icon img">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- End single gallery image -->
+
+
+                        <!-- start single gallery image -->
+                        <div class="mu-single-gallery col-md-4 mix saf">
+                           <div class="mu-single-gallery-item">
+                              <figure class="mu-single-gallery-img">
+                                 <a href="#"><img alt="img" src="./src/img/gallery/small/11.jpg"></a>
+                              </figure>
+                              <div class="mu-single-gallery-info">
+                                 <a href="./src/img/gallery/big/11.jpg" data-fancybox-group="gallery" class="fancybox">
                                     <img src="./src/img/plus.png" alt="plus icon img">
                                  </a>
                               </div>
@@ -993,13 +1009,13 @@ require_once("varconst.php");
                         </div>
                         <!-- End single gallery image -->
                         <!-- start single gallery image -->
-                        <div class="mu-single-gallery col-md-4 mix encontros">
+                        <div class="mu-single-gallery col-md-4 mix saf">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
-                                 <a href="#"><img alt="img" src="./src/img/gallery/small/6.jpg"></a>
+                                 <a href="#"><img alt="img" src="./src/img/gallery/small/12.jpg"></a>
                               </figure>
                               <div class="mu-single-gallery-info">
-                                 <a href="./src/img/gallery/big/6.jpg" data-fancybox-group="gallery" class="fancybox">
+                                 <a href="./src/img/gallery/big/12.jpg" data-fancybox-group="gallery" class="fancybox">
                                     <img src="./src/img/plus.png" alt="plus icon img">
                                  </a>
                               </div>
@@ -1007,13 +1023,13 @@ require_once("varconst.php");
                         </div>
                         <!-- End single gallery image -->
                         <!-- start single gallery image -->
-                        <div class="mu-single-gallery col-md-4 mix drink">
+                        <div class="mu-single-gallery col-md-4 mix saf">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
-                                 <a href="#"><img alt="img" src="./src/img/gallery/small/7.jpg"></a>
+                                 <a href="#"><img alt="img" src="./src/img/gallery/small/13.jpg"></a>
                               </figure>
                               <div class="mu-single-gallery-info">
-                                 <a href="./src/img/gallery/big/7.jpg" data-fancybox-group="gallery" class="fancybox">
+                                 <a href="./src/img/gallery/big/13.jpg" data-fancybox-group="gallery" class="fancybox">
                                     <img src="./src/img/plus.png" alt="plus icon img">
                                  </a>
                               </div>
@@ -1021,13 +1037,29 @@ require_once("varconst.php");
                         </div>
                         <!-- End single gallery image -->
                         <!-- start single gallery image -->
-                        <div class="mu-single-gallery col-md-4 mix restaurant">
+                        <div class="mu-single-gallery col-md-4 mix saf">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
-                                 <a href="#"><img alt="img" src="./src/img/gallery/small/8.jpg"></a>
+                                 <a href="#"><img alt="img" src="./src/img/gallery/small/14.jpg"></a>
                               </figure>
                               <div class="mu-single-gallery-info">
-                                 <a href="./src/img/gallery/big/8.jpg" data-fancybox-group="gallery" class="fancybox">
+                                 <a href="./src/img/gallery/big/14.jpg" data-fancybox-group="gallery" class="fancybox">
+                                    <img src="./src/img/plus.png" alt="plus icon img">
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- End single gallery image -->
+
+
+                        <!-- start single gallery image -->
+                        <div class="mu-single-gallery col-md-4 mix ebf">
+                           <div class="mu-single-gallery-item">
+                              <figure class="mu-single-gallery-img">
+                                 <a href="#"><img alt="img" src="./src/img/gallery/small/21.jpg"></a>
+                              </figure>
+                              <div class="mu-single-gallery-info">
+                                 <a href="./src/img/gallery/big/21.jpg" data-fancybox-group="gallery" class="fancybox">
                                     <img src="./src/img/plus.png" alt="plus icon img">
                                  </a>
                               </div>
@@ -1035,19 +1067,20 @@ require_once("varconst.php");
                         </div>
                         <!-- End single gallery image -->
                         <!-- start single gallery image -->
-                        <div class="mu-single-gallery col-md-4 mix dessert">
+                        <div class="mu-single-gallery col-md-4 mix ebf">
                            <div class="mu-single-gallery-item">
                               <figure class="mu-single-gallery-img">
-                                 <a href="#"><img alt="img" src="./src/img/gallery/small/9.jpg"></a>
+                                 <a href="#"><img alt="img" src="./src/img/gallery/small/22.jpg"></a>
                               </figure>
                               <div class="mu-single-gallery-info">
-                                 <a href="./src/img/gallery/big/9.jpg" data-fancybox-group="gallery" class="fancybox">
+                                 <a href="./src/img/gallery/big/22.jpg" data-fancybox-group="gallery" class="fancybox">
                                     <img src="./src/img/plus.png" alt="plus icon img">
                                  </a>
                               </div>
                            </div>
                         </div>
                         <!-- End single gallery image -->
+
                      </div>
                   </div>
                </div>

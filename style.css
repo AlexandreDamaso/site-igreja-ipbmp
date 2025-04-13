@@ -193,7 +193,7 @@ img {
 .mu-main-navbar {
    background-color: transparent;
    border: none;
-   padding: 25px 0;
+   padding: 20px 0;
    border-radius: 0;
    -webkit-transition: all 0.5s;
    -moz-transition: all 0.5s;
@@ -226,8 +226,8 @@ img {
 
 .mu-main-navbar .navbar-header .navbar-brand {
    padding: 0;
-   margin-top: 8px;
-   height: 50px;
+   margin-top: 0px;
+   height: 60px;
 
    /* TAMANHO DA IMAGEM DE LOGO ORIGINAL */
    /* height: 34px; */
